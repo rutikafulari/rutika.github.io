@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14f67ef9ae.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <pre><span>R</span>utika <span>F</span>ulari. </pre>
+                <ul id="sidemenu"> 
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#skills" onclick="closemenu()">Skills</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#leadership" onclick="closemenu()">Leadership & Certification</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'am <span>Rutika</span><br>This is My Portfolio</h1>
+            </div>
+            <a href="images/Rutika Fulari Resume.pdf" download class="btn">Download Resume</a>
+        </div>       
+    </div>
+<!-----------------------------------about------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image .jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+<p>Hello there, I'am c# , java and web devloper. Currently looking for intern position in software devlopment.<br>I'am currently pursuing my masters in computer applications. I have done my bachelors in computer application in year 2022.During my educational journey, I have acquired many key skills and technical knowledge in computer science and programming such as data structures, algorithms, databases, web applications and desktop applications. I have excellent academic records across my courses and am well equipped to work in challenging environment. Apart from this, I love playing football and video games</p>
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('profile')">Profile</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><p><span>M.C.A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Pursuing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022</span><br>Bharati Vidyapeeth (Deemed to Be Unversity)</p></li>
+                                <li><p><span>B.C.A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SGPA - 8.94&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019 - 2022</span><br>Sangmeshwar College (Solapur Unversity)</p></li>
+                                
+                                <li><p><span>X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;74.40%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016</span><br>Maharashtra State Board</p></li>
+                            </ul>
+                        </div>  
+                        <div class="tab-contents" id="profile">
+                            <ul>
+                                <li><span>March 29, 2001</span><br>Date of Birth</li>
+                                <li><span>Solapur, Maharashtra</span><br>Address</li>
+                                <li><span><a href="tel:9503304568" class="ml" style="text-decoration: none;">8180068702</a></span><br>Phone</li>
+                                <li><span><a href="mailto:rutikafulari@gmail.com" class="el" style="text-decoration: none;">rutikafulari@gmail.com</a></span><br>Email</li>
+                            </ul>
+                        </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------skills------------------------------------------------------------------>
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Languages</h2>
+                    <p>Python, C, C#, Java, OOPS </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h2>Web and Database</h2>
+                    <p>HTML, CSS, JavaScript, PHP, MySQL, MongoDB, Oracle</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Tools and Frameworks</h2>
+                    <p>.NET, Visual Studio</p><br>
+                    <p>java, NetBeans</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------Projects------------------------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/image3.png">
+                    <div class="layer">
+                        <h3>Inward Outward System</h3>
+                        <p>This is desktop-based application that to track letters and manage the essential activity (Entries of Sent Letters and Received Letters, Generating Parametrized Reports through SAP Crystal Report).</p>
+                        <a href="https://github.com/rutikafulari/Inward_Outward-" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            <div class="project">
+                <img src="images/image2.png">
+                <div class="layer">
+                    <h3>Blood Bank Management System</h3>
+                    <p>The main objective of the project is to manage the details of registration, product registration, reports, so it reduces the room for errors as the details were entered manually on paper previously</p>
+                    <a href="https://github.com/rutikafulari/Blood-Bank-Management-Syatem" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------Leadership and Certifications-------------------------------------------------------------->
+
+    <div id="leadership">
+        <div class="container">
+            <h1 class="title">Leadership Activity & Certifications</h1>
+            <div class="lc-list">
+                <div>
+                    <i class="fa-solid fa-people-group"></i>
+                    <h2>Leadership Activity</h2>
+                    <p>⚪ Working as Anchor in College level.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>Certifications</h2>
+                    <p>⚪ NPTEL<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;java </p>
+                    <p><br>⚪ NPTEL<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datastructure and Algorithm using python</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---------------------------------Contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:padil22446@gmail.com" class="ecl" style="text-decoration: none;"> rutikafulari@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i><a href="tel:9503304568" class="mcl" style="text-decoration: none;"> 8180068702</a></p>
+                    
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rutika-fulari-860ba8228" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/ru.tika29?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/Rutika Fulari" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/rutikafulari" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/918180068702" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   </form>
+                   <span id="msg"></span>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <pre>C o p y r i g h t    ©    2 0 2 3    M a d e    W i t h    <i class="fa-solid fa-heart"></i>    B y    R U T I K A. </pre>
+        </div> 
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-280px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz5IfpyQtKVU2vJXjekwyCQYSlpOkdo2NqyhGA3sD15h_OUZgzp5ZWoBugC1QcDemxh/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully !"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>̥
